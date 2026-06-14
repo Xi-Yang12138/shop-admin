@@ -1,0 +1,1 @@
+import{c as e}from"./index-jt8HpH5b.js";function t(){return e.get(`/admin/sysconfig`)}function n(t={}){return e.post(`/admin/sysconfig`,t)}function r(t){let n=new FormData;return n.append(`file`,t),e.post(`/admin/sysconfig/upload`,n,{headers:{"Content-Type":`multipart/form-data`}})}export{n,r,t};
